@@ -3948,6 +3948,7 @@ MonoBehaviour:
   displayImageDuration: 1
   player: {fileID: 5029852358624081159}
   exitBackgroundImageCanvasGroup: {fileID: 869281593}
+  caughtBackgroundImageCanvasGroup: {fileID: 0}
 --- !u!65 &1800474605
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4129,6 +4130,80 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1801883017107340946, guid: 79b7785d2d6a5b74a859e70ab27755ec, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 79b7785d2d6a5b74a859e70ab27755ec, type: 3}
+--- !u!1001 &4160337922842800922
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2968264419877422172, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_Name
+      value: Gargoyle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018589610150401225, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 634578983516836888, guid: 827e0e5b69578ed41b8da20f3dabd7a8,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 99604f1d508a2d449b9afa22a7312239, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 827e0e5b69578ed41b8da20f3dabd7a8, type: 3}
 --- !u!1 &5029852358624081159 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5029852358624081159, guid: 79b7785d2d6a5b74a859e70ab27755ec,
