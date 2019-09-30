@@ -24,6 +24,10 @@ public class GameEnding : MonoBehaviour
             m_IsPlayerAtExit = true;
         }
     }
+    public void CaughtPlayer ()
+    {
+        m_IsPlayerCaught = true;
+    }
     void Update()
     {
         if(m_IsPlayerAtExit)
@@ -33,22 +37,24 @@ public class GameEnding : MonoBehaviour
         else if (m_IsPlayerCaught)
         {
             EndLevel (caughtBackgroundImageCanvasGroup, true);
+            
         }
         
     }
     void EndLevel (CanvasGroup imageCanvasGroup, bool doRestart)
     {
         m_Timer += Time.deltaTime;
-
-        exitBackgroundImageCanvasGroup.alpha = m_Timer / fadeDuration;
-
-        if( doRestart)
+        imageCanvasGroup.alpha = m_Timer / fadeDuration;
+        if (m_Timer > fadeDuration + displayImageDuration)
         {
-            SceneManager.LoadScene(0);
-        }
-        else
-        {
-            Application.Quit();
+            if (doRestart)
+            {
+                SceneManager.LoadScene(0);
+            }
+            else
+            {
+                Application.Quit();
+            }
         }
 
     }
